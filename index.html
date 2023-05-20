@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+    <div class="top">
+        <h2>TimeZone API</h2>
+        <h2 style="margin-bottom: 10px;">Your Current Time Zone</h2>
+       
+        <div class="CurrentData" id="CurrentDataHere">
+           
+        </div>
+    </div>
+    <div class="bottom">
+        <h2>Enter Address</h2>
+        <input type="text" placeholder="eg :- city state country" id="Address">
+        <button onclick="GetLocation()">Submit</button>
+     
+
+        <div class="outerData" id="UserDataHere">
+           
+        </div>
+          
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
